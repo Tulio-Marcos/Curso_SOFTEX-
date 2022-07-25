@@ -1,14 +1,22 @@
-/* 
-o Professor organiza Cada linha com 6 alunos.
- Cada Linha contem 4 alunos que gostam da mesma materia.
+var nome = prompt('digite seu nome');
+var enderoco = prompt('digite seu Endereço');
+var cidade = prompt('digite sua cidade');
+var cpf = prompt('digite seu CPF');
+var rg = prompt('digite seu RG');
+var idade = prompt('digite sua idade');
+var nomePai = prompt('digite o nome do seu pai');
+var nomeMae = prompt('digite o nome da sua mae');
+var peso = prompt('digite seu peso');
+var rendaBruta = prompt('digite sua renda');
 
-Na Questão informa :  percebeu que um aluno que gosta de uma das disciplinas 
-					  havia trocado de lugar com alguém que prefere a outra.
 
-
-
-o aluno de numero 5 da sequencia esquerda para direita na Linha 5 mudou de caderia com o numero 4
-da mesma linha ;
-o numero 5 mudou para (P).
-e o numero 4 Continuou gostando de (P).
-*/
+console.log(` Ola ${nome} 
+endereço: ${enderoco}
+Cidade: ${cidade}
+CPF: ${cpf}
+Rg: ${rg}
+Idade: ${idade}
+Nome do Pai :${nomePai}
+Nome da mãe: ${nomeMae}
+Peso:${peso}
+Renda Bruta: ${rendaBruta}`)
