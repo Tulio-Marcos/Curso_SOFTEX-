@@ -1,0 +1,26 @@
+<C>  
+#include <stdio.h>
+#include <stdlib.h> 
+
+int main(void)
+{
+  int a, tam = 22, *array;  
+  array = (int *) malloc(5 * sizeof(int)); 
+  array = (int *) realloc(array, tam * sizeof(int)); 
+
+   if(vet){
+        printf(" sucesso!");
+        for(i = 0; i < tam; i++)
+            *(array + i) = rand() % 100;
+
+        for(i = 0; i < tam; i++)
+            printf("%d ", *(array + i));
+       
+    }
+    else{
+        printf("Erro ");
+    }
+    free(array);
+    return 0;
+}
+ 
