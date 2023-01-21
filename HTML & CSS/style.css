@@ -1,0 +1,24 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.titulo {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+p {
+  color: gray;
+}
+
+.item img{
+  width: 100%;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin: 20px
+}
